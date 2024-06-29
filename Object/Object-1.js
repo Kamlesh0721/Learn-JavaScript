@@ -43,7 +43,7 @@ const user = {
 
 console.log(user);
 
-user.greeting = function () {  // this will not access name if we use arrow function
+user.greeting = function () {  //(imp) this will not access name if we use arrow function
     console.log(`Hello, ${this.name}`);
 }
 console.log(user.greeting);
