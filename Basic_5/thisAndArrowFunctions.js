@@ -17,8 +17,8 @@
 // console.log(this); // here it will return "{}" empty object - global context 
 // but if we run it in browser it will return window object - global current context for browser
 
-
-// this keyword in Function
+// this - this refers to object that is currently calling the function
+//why  this keyword is not in Function(*veryImp - reason)
 // function fun1() {
 //     let userName = "Kamlesh Singh"
 //     console.log(userName);
