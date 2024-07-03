@@ -16,3 +16,11 @@ value = null ?? undefined ?? 10 //10
 
 
 console.log(value);
+
+
+// Ternary Operator 
+// condition ? ture:false
+
+price = 100
+isAffordable = price < 50 ? "Affordable" : "Not Affordable";
+console.log(isAffordable);

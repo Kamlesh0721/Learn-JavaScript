@@ -9,6 +9,6 @@ if (true) {
 
 // console.log(a); // Error
 // console.log(b); // Error
-// console.log(c);    // it will not give error- this is why var is not used it scope is not fixed
+// console.log(c); // It will not give error- this is why var is not used it scope is not fixed
 
 console.log("outer d", d); // Global Scope
