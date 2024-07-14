@@ -1,0 +1,54 @@
+// Feature Request - 1
+let str = "HELLO";
+
+let num = 100;
+let bigNum = 19993289329482935235n;
+
+const arr = [101, 23, 343, 43];
+const obj = {
+    name: "Kamlesh",
+    id: 10
+}
+
+let uniqueId = Symbol("id")
+
+function fun() {
+    return "HI- from function"
+}
+fun();// function call
+
+let bool = true;
+let val = null;
+let val2;
+
+console.log(`String Value : ${str} | Type : ${typeof str}`);
+console.log(`Number Value : ${num} | Type : ${typeof num}`);
+console.log(`Big Int Value : ${bigNum} | Type : ${typeof arr}`);
+console.log(`Object Value : ${obj} | Type : ${typeof obj}`);
+
+// console.log(`Symbol Value : ${uniqueId} Type : ${typeof uniqueId}`);// give error can not convert symbol value to string
+console.log("Symbol value :", uniqueId);
+console.log("Type : ", uniqueId)
+
+console.log(`Function Value : ${fun()} | Type : ${typeof fun()}`);
+console.log(`Boolean Value : ${bool} | Type : ${typeof bool}`);
+console.log(`null Value : ${val} | Type : ${typeof val}`);
+console.log(`Undefined Value : ${val2} | Type : ${typeof val2}`);
+
+// Feature Request - 2
+
+let a = 5;
+console.log(a);
+a = 10
+console.log(a);
+
+// const b=5;
+console.log(b);
+// const b=10; // give error can not re assign
+console.log(b);
+
+// Difference Between let and const
+
+// Both let and const are block-scoped.
+// let allows reassignment, while const does not.
+// Both let and const are hoisted, but they are not initialized and cannot be accessed before their declaration.
