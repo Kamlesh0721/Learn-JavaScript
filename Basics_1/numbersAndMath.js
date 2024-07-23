@@ -1,16 +1,16 @@
-// const balance = 1583.56023
+const balance = 1583.56023
 
 // console.log(balance.toString().length) // Balance will be converted to String and then we can use length attribute of string
 
-// let balance2 = 130230.4543
-// console.log(balance.toPrecision(6))
-// console.log(balance2.toPrecision(6))
+let balance2 = 130230.4543
+console.log(balance.toPrecision(6))
+console.log(balance2.toPrecision(6))
 
-// const balance3 = 100000000
-// console.log(balance3);
-// console.log(balance3.toLocaleString())
-// console.log(balance3.toLocaleString('en-IN'))
-// console.log(balance3);
+const balance3 = 100000000
+console.log(balance3);
+console.log(balance3.toLocaleString())
+console.log(balance3.toLocaleString('en-IN'))
+console.log(balance3);
 
 // // Math Library
 

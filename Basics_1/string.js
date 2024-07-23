@@ -1,7 +1,7 @@
 let s1 = "Kamlesh"
 console.log(s1)
 
-let s2 = new String("Kamlesh") // Object
+let s2 = new String("Kamlesh") // Object -[String:'Kamlesh']
 console.log(s2)
 
 let s3 = "Kamlesh"
@@ -11,9 +11,9 @@ console.log(s1 === s2)
 console.log(s1 === s3)
 
 
-console.log(typeof (s1))
-console.log(typeof (s2))
-console.log(typeof (s3))
+console.log(typeof (s1))  // string 
+console.log(typeof (s2))    // object
+console.log(typeof (s3))    // string
 
 // String Concatination
 

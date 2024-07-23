@@ -11,7 +11,8 @@ console.log(typeof (myDate))
 // Create specific date
 //let newDate = new Date(2024, 0, 1) // Month starts from 0 - 0 represent january
 //let newDate = new Date(2024, 0, 1, 5, 5)
-// let newDate = new Date("2024-01-1")  // Here 1 reperesent janauary
+//let newDate = new Date("2024-01-1")  // Here 1 reperesent janauary
+
 let newDate = new Date("01-01-2024")
 console.log(newDate.toString())
 
