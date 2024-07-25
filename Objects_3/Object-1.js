@@ -13,9 +13,10 @@ const user = {
     isLoggedIn: false,
     // mySym: "Value",// It will not use symbol "mySym" as Symbol but it will store it as a string
     [mySym]: "Value"
-}  // Here "name","age" "email","isLoggedIn" is internally stored as string but you do not need to write it inside quotes
+}  // Here "name","age" "email","isLoggedIn"(keys) is internally stored as string but you do not need to write it inside quotes
 
 // Ways to access object
+
 
 // 1-
 // console.log(user.name);
@@ -46,5 +47,6 @@ console.log(user);
 user.greeting = function () {  //(imp) this will not access name if we use arrow function
     console.log(`Hello, ${this.name}`);
 }
+
 console.log(user.greeting);
 console.log(user.greeting());

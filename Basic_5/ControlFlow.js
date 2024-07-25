@@ -3,8 +3,8 @@ if (balance > 500) {
     console.log(balance);
 }
 
-// if (balance > 500) console.log(balance), console.log(balance),
-//     console.log(balance); //Inlie if statement - this is also right way but it is not recommended because it is not easy to read
+if (balance > 500) console.log(balance), console.log(balance),
+    console.log(balance); //Inlie if statement - this is also right way but it is not recommended because it is not easy to read
 
 let day = 3
 

@@ -12,11 +12,11 @@ const books = [
 ];
 
 // print all books whose genre is History
-// const ans = books.filter((book) => {
-//     return book.genre == 'History'
-// })
+const ans = books.filter((book) => {
+    return book.genre == 'History'
+})
 // const ans = books.filter((book) => book.genre == 'History') // Implicit return
-// console.log(ans);
+console.log(ans);
 
 // map Practice
 const numbers = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]

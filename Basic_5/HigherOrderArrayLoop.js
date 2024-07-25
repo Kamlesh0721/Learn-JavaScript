@@ -1,4 +1,4 @@
-// // forof loop
+// forof loop
 // const arr = [10, 20, 30, 40, 50]
 // for (const i of arr) {
 //     console.log(i);

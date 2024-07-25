@@ -30,15 +30,16 @@ const myCodeing = [
     }
 ]
 
-// const values = myCodeing.forEach((item) => {
-//     console.log(item.lang);
-//     console.log(item.type);
-//     // return
-//     // return item
-//     // return item.lang
-//     // return item.type // always returning undefined
-// })
+const values = myCodeing.forEach((item) => {
+    // console.log(item.lang);
+    // console.log(item.type);
+    // return
+    // return item
+    // return item.lang
+    // return item.type // always returning undefined
+})
 // console.log(values); // undefined
+// values
 
 // 
 
@@ -51,10 +52,10 @@ console.log(value2);
 
 // How to use foreach to return value or array
 
-const value3 = []
-myNums.forEach((item) => {
-    if (item >= 50) {
-        value3.push(item)
-    }
-})
-console.log(value3);
+// const value3 = []
+// myNums.forEach((item) => {
+//     if (item >= 50) {
+//         value3.push(item)
+//     }
+// })
+// console.log(value3);
