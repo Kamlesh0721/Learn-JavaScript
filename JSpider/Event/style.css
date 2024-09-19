@@ -18,3 +18,11 @@ body {
   background-color: black;
   color: white;
 }
+
+
+button>i{
+  font-size: x-large;
+}
+button .hide{
+  display: none;
+}
