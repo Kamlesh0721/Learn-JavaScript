@@ -1,0 +1,29 @@
+// Object Deconstructor
+let user={
+    name:"Kamlesh Singh",
+    age:23,
+}
+
+// let {name}=user;
+// console.log(name);
+// let {name,age}=user;
+// console.log(name,age)
+
+// Array Deconstructor
+
+const arr=[10,20,30,40,50];
+
+// let [a,b,c,d,e,f]=arr;
+// console.log(a,b);
+
+// deconstruct array in function
+function arrDec([a,b,c]){
+    console.log(a,b,c);
+}
+arrDec(arr)
+
+// deconstruce object in function
+function objDec({name,age}){
+    console.log(name,age);
+}
+objDec(user)
